@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Urbanist', sans-serif;
+}
+h1{
+	font-size: 450%;
+	color: black;
+	letter-spacing: 20px;
+	left: 200px;
+	top: 200px;
+}
+#button{
+	font-size: 200%;
+	color: black;
+	letter-spacing: 10%;
+	opacity: 0.8;
+	background-color: darkred;
+	border: 1px solid black;
+	border-radius: 20px;
+	padding: 10px;
+	z-index: 1;
+}
+#banner{
+	width: 100%;
+	position: relative;
+}
+#topbanner{
+	display: flex;
+}
+.icon{
+	width: 45%;
+}
+h1, #button, #topbanner>div{
+	position: absolute;
+}
+#topbanner>div{
+	background-color: white;
+	width: 8%;
+	padding: 10px;
+	border-radius: 30px;
+	left: 90%;
+	top: 10px;
+}
+h2{
+	font-size: 200%;
+	letter-spacing: 15px;
+	text-align: center;
+	padding-bottom: 2%;
+}
+p{
+	font-size: 150%;
+	text-align: justify;
+	line-height: 30px;
+	padding-top: 2%;
+	text-align: justify;
+}
+#aboutus{
+	padding: 5%;
+}
+.card{
+	width: 200px;
+	height: 400px;
+	object-fit: cover;
+	border-radius: 20px;
+}
+#row{
+	display: flex;
+	justify-content: space-around;
+}
+.rows{
+	display: flex;
+	padding: 5%;
+}
+.hotel{
+	width: 400px;
+	height: 300px;
+	border-radius: 20px;
+	border: 10px solid aqua;
+}
+.text{
+	padding:3%;
+}
+#heading{
+	padding-top: 25px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
